@@ -6,6 +6,21 @@ RoamRoot is a MERN travel discovery platform: unique stays, local experiences, h
 
 Journey: **Discover → Save → Plan → Book → Travel → Share**
 
+**Live Deployment.**
+
+Live Website: https://roam-root.vercel.app
+
+Frontend Hosting: Vercel
+
+Backend API: https://roamroot-backend.onrender.com
+
+Backend Hosting: Render
+
+Database: MongoDB Atlas
+
+Image Storage: Cloudinary
+
+
 ## Features
 
 - Discover page with search, filters (URL based, shareable), sorting, pagination and an interactive map synced with the list
