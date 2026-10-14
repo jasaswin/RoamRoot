@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 560" role="img" aria-labelledby="t d">
+<title id="t">No saved places yet</title><desc id="d">Your saved places will appear here.</desc>
+<rect width="760" height="560" rx="40" fill="#F7F3EA"/>
+<path d="M0 420Q150 340 280 405T520 395T760 365V560H0Z" fill="#A8BDA5"/>
+<path d="M0 470Q170 390 330 450T760 425V560H0Z" fill="#6B8F71"/>
+<path d="M90 390L185 235L250 320L315 205L420 390Z" fill="#183A37"/>
+<path d="M185 235l-35 57 35-23 25 34 32-52zM315 205l-37 61 38-25 26 37 32-49z" fill="#F7F3EA"/>
+<circle cx="430" cy="190" r="42" fill="#C86B4A"/><path d="M430 215c-45-31-69-54-69-83 0-21 16-38 38-38 14 0 25 7 31 19 7-12 18-19 32-19 22 0 38 17 38 38 0 29-24 52-70 83z" fill="#fff"/>
+<text x="380" y="475" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="28" font-weight="700" fill="#183A37">No saved places yet</text>
+<text x="380" y="510" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="19" fill="#6B716D">Your saved places will appear here.</text>
+</svg>

@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html { scroll-behavior: smooth; }
+  body { @apply bg-cream font-sans text-charcoal antialiased; }
+  h1, h2, h3, h4 { @apply font-serif text-forest; }
+  :focus-visible { outline: 3px solid #C86B4A; outline-offset: 2px; border-radius: 6px; }
+  img { @apply bg-sand/40; }
+  img[src$='.svg'] { background: transparent; }
+}
+
+@layer components {
+  .btn { @apply inline-flex items-center justify-center gap-2 rounded-full px-5 py-2.5 text-sm font-semibold transition duration-200 active:scale-[0.98] disabled:cursor-not-allowed disabled:opacity-50; }
+  .btn-primary { @apply btn bg-forest text-cream hover:bg-forest-deep; }
+  .btn-accent { @apply btn bg-terracotta text-white hover:bg-[#b45b3c]; }
+  .btn-outline { @apply btn border border-forest/30 bg-transparent text-forest hover:border-forest hover:bg-forest/5; }
+  .btn-light { @apply btn bg-cream text-forest hover:bg-white; }
+  .btn-ghost { @apply btn text-forest hover:bg-forest/5; }
+  .input { @apply w-full rounded-xl border border-sand bg-white px-4 py-2.5 text-sm text-charcoal placeholder:text-muted/70 transition focus:border-forest focus:outline-none focus:ring-2 focus:ring-forest/20; }
+  .input-error { @apply border-red-500 focus:border-red-500 focus:ring-red-200; }
+  .label { @apply mb-1.5 block text-sm font-medium text-forest; }
+  .chip { @apply inline-flex items-center rounded-full border border-sand bg-white px-3.5 py-1.5 text-sm text-charcoal transition hover:border-forest; }
+  .chip-active { @apply border-forest bg-forest text-cream hover:border-forest; }
+  .container-page { @apply mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8; }
+  .card { @apply rounded-3xl border border-sand/60 bg-white shadow-card; }
+  .eyebrow { @apply text-xs font-semibold uppercase tracking-[0.2em] text-terracotta; }
+}
+
+.leaflet-container { font-family: Inter, sans-serif; border-radius: inherit; z-index: 0; }
+.rr-pin { background: #C86B4A; border: 3px solid #fff; border-radius: 50% 50% 50% 0; transform: rotate(-45deg); box-shadow: 0 3px 8px rgba(0,0,0,.35); }
+.rr-pin-active { background: #183A37; }
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
+@media (prefers-reduced-motion: reduce) {
+  * { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; scroll-behavior: auto !important; }
+}

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 620" role="img" aria-labelledby="t d">
+<title id="t">RoamRoot Creator</title><desc id="d">Local travel creator sharing an experience with travelers.</desc>
+<rect width="760" height="620" rx="40" fill="#F7F3EA"/>
+<circle cx="610" cy="110" r="58" fill="#C86B4A"/>
+<path d="M0 470Q150 360 285 450T530 440T760 390V620H0Z" fill="#A8BDA5"/>
+<path d="M0 520Q170 430 330 500T760 455V620H0Z" fill="#6B8F71"/>
+<path d="M80 450L200 260L285 350L360 205L500 450Z" fill="#183A37"/>
+<path d="M200 260l-45 70 45-27 29 39 39-62zM360 205l-45 70 46-29 30 42 40-59z" fill="#F7F3EA"/>
+<!-- creator -->
+<circle cx="365" cy="250" r="54" fill="#D9A07C"/>
+<path d="M310 248q6-72 55-72t58 72q-52-31-113 0z" fill="#6B8F71"/>
+<path d="M286 360q79-70 158 0l27 110H258z" fill="#183A37"/>
+<path d="M309 330l-62 58M422 330l68 52" stroke="#D9A07C" stroke-width="23" stroke-linecap="round"/>
+<path d="M238 388l-35 55M490 382l40 55" stroke="#C86B4A" stroke-width="18" stroke-linecap="round"/>
+<!-- travelers -->
+<circle cx="170" cy="385" r="35" fill="#E7B08C"/><path d="M125 470q45-54 90 0l10 60H115z" fill="#6B8F71"/>
+<circle cx="585" cy="380" r="35" fill="#D9A07C"/><path d="M540 465q45-54 90 0l10 65H530z" fill="#183A37"/>
+<!-- speech -->
+<path d="M460 120h185q34 0 34 34v58q0 34-34 34H530l-36 31 6-31h-40q-34 0-34-34v-58q0-34 34-34z" fill="#fff" stroke="#DCCDB8" stroke-width="5"/>
+<circle cx="505" cy="183" r="8" fill="#183A37"/><circle cx="538" cy="183" r="8" fill="#183A37"/><circle cx="571" cy="183" r="8" fill="#183A37"/>
+<text x="380" y="575" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="26" font-weight="700" fill="#183A37">Share the places only you know</text>
+</svg>

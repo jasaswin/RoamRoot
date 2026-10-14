@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 560" role="img" aria-labelledby="t d">
+<title id="t">RoamRoot 404</title><desc id="d">A traveler has taken a wrong turn on a mountain trail.</desc>
+<rect width="760" height="560" rx="40" fill="#F7F3EA"/>
+<path d="M0 430Q130 330 275 415T520 400T760 365V560H0Z" fill="#A8BDA5"/>
+<path d="M0 480Q150 395 330 455T760 420V560H0Z" fill="#6B8F71"/>
+<path d="M100 420L220 230L310 330L390 185L535 420Z" fill="#183A37"/>
+<path d="M220 230l-44 70 45-27 29 41 40-63zM390 185l-48 77 49-29 33 46 42-64z" fill="#F7F3EA"/>
+<!-- signpost -->
+<path d="M365 405V250" stroke="#8A674D" stroke-width="15" stroke-linecap="round"/>
+<path d="M365 265h210l-35 55H365z" fill="#DCCDB8" stroke="#8A674D" stroke-width="5"/>
+<path d="M365 330h-180l35-55h145z" fill="#C86B4A" stroke="#8A674D" stroke-width="5"/>
+<text x="467" y="302" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="34" font-weight="800" fill="#183A37">404</text>
+<text x="275" y="312" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="20" font-weight="700" fill="#fff">WRONG TURN?</text>
+<!-- traveler -->
+<circle cx="590" cy="355" r="27" fill="#D9A07C"/><path d="M555 420q35-48 70 0l15 70h-100z" fill="#183A37"/>
+<path d="M556 347q9-38 36-38t36 38q-32-17-72 0z" fill="#6B8F71"/>
+<text x="380" y="515" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="29" font-weight="700" fill="#183A37">Lost somewhere?</text>
+<text x="380" y="545" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="18" fill="#6B716D">Even RoamRoot explorers take a wrong turn.</text>
+</svg>

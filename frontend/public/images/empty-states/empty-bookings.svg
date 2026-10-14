@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 560" role="img" aria-labelledby="t d">
+<title id="t">No journeys booked yet</title><desc id="d">Your upcoming bookings will appear here.</desc>
+<rect width="760" height="560" rx="40" fill="#F7F3EA"/>
+<path d="M0 420Q150 340 280 405T520 395T760 365V560H0Z" fill="#A8BDA5"/>
+<path d="M0 470Q170 390 330 450T760 425V560H0Z" fill="#6B8F71"/>
+<path d="M90 390L185 235L250 320L315 205L420 390Z" fill="#183A37"/>
+<path d="M185 235l-35 57 35-23 25 34 32-52zM315 205l-37 61 38-25 26 37 32-49z" fill="#F7F3EA"/>
+<rect x="345" y="155" width="210" height="145" rx="20" fill="#183A37"/><rect x="365" y="185" width="170" height="95" rx="12" fill="#F7F3EA"/><path d="M395 220h110M395 250h65" stroke="#6B8F71" stroke-width="10" stroke-linecap="round"/><circle cx="505" cy="385" r="45" fill="#C86B4A"/>
+<text x="380" y="475" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="28" font-weight="700" fill="#183A37">No journeys booked yet</text>
+<text x="380" y="510" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="19" fill="#6B716D">Your upcoming bookings will appear here.</text>
+</svg>
